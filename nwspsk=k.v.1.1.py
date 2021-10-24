@@ -34,8 +34,8 @@ for i in a_profiles:
 
 name = pc_name + "_" + username + "_networkinfo.a47"
 
-# ouputs results to .noodle file
-# (Note: .noodle files can be opened like any normal text file)
+# ouputs results to .a47 file
+# (Note: .a47 files can be opened like any normal text file)
 with open(name, "w") as file:
     file.write(the_list)
 
