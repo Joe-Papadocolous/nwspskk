@@ -7,3 +7,9 @@ Contact me if you have any problems.
 Version 1.1:
  - Fixes bug that occurs when a network name contains a space
  - Fixes bug that occurs caused by public networks
+
+Known problems:
+ - Passwords from networks that use SSO cannot be scraped
+ 
+ Ideas:
+  - List all public and SSO network names
