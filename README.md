@@ -1,4 +1,4 @@
-# Network Connecction History
+# Network Connection History
 Outputs names and passwords of all previously used networks to a text file.  
 
 Version 1.1:
