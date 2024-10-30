@@ -8,3 +8,4 @@ Version 1.1:
 Known problems:
  - Passwords from networks that use SSO are listed as public network
  - Does not work if apostrophe is in the name of iPhone hotspot (may or may not be a problem with other hotspots).
+ - May not work if apostrophe is in name of any network
