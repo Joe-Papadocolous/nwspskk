@@ -5,7 +5,13 @@ Version 1.1:
  - Fixes bug that occurs when a network name contains a space
  - Fixes bug that occurs caused by public networks
 
+Version 1.2:
+ - Doesn't crash if apostrophe is in network name
+
 Known problems:
- - Passwords from networks that use SSO are listed as public network
- - Does not work if apostrophe is in the name of iPhone hotspot (may or may not be a problem with other hotspots).
- - May not work if apostrophe is in name of any network
+ - Does not dislay password for the following:
+    - networks that use SSO
+    - network with an apostrophe in the name (common with iPhone hotspots)
+
+Future improvements:
+ - Add date/time to created file
