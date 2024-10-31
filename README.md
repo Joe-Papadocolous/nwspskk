@@ -1,6 +1,8 @@
 # Network Connection History
 Outputs names and passwords of all previously used networks to a text file.  
 
+This is a project I created for fun. Mostly created in high school, minor imrovements since. -MJL
+
 Version 1.1:
  - Fixes bug that occurs when a network name contains a space
  - Fixes bug that occurs caused by public networks
