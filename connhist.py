@@ -1,5 +1,4 @@
-#nwspsk=k.v.1.1.py
-#Version: 1.1
+#Version: 1.2
 
 import subprocess
 import re
@@ -28,14 +27,13 @@ for i in a_profiles:
         result = re.search("Key Content            : (.*)\r\n\r\nCost settings", pswd)
         string = ("Network name: " + i + "\nNetwork password: " + result.group(1) + "\n\n")
         the_list = the_list + string
-    except AttributeError:
-        string = ("Network name: " + i + "\nPublic Network - no password\n\n")
+    except:
+        string = ("Network name: " + i + "\nError retrieving password\n\n")
         the_list = the_list + string
 
-name = pc_name + "_" + username + "_networkinfo.a47"
+name = pc_name + "_" + username + "_networkinfo.txt"
 
-# ouputs results to .a47 file
-# (Note: .a47 files can be opened like any normal text file)
+# ouputs results to .txt file
 with open(name, "w") as file:
     file.write(the_list)
 
